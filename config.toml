@@ -31,11 +31,15 @@ theme = "hugo-hero-theme"
     url = "/about/"
     weight = 3
 
-
 [[menu.main]]
     name = "History"
     url = "/history/"
-    weight = 3
+    weight = 4
+
+[[menu.main]]
+    name = "Payment for Services"
+    url = "/payment/"
+    weight = 5
 
 [[menu.main]]
     name = "Contact"
@@ -45,3 +49,4 @@ theme = "hugo-hero-theme"
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
+
